@@ -1,0 +1,24 @@
+{
+  "name": "node_and_npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abhi3693/Node_and_NPM.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abhi3693/Node_and_NPM/issues"
+  },
+  "homepage": "https://github.com/Abhi3693/Node_and_NPM#readme",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1"
+  }
+}
