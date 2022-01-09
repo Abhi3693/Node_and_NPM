@@ -4,14 +4,16 @@ console.log(moment().format('MMMM Do YYYY, h:mm:ss a'));
 console.log(moment().format('dddd'));
 console.log(moment().format("MMM Do YY"));  
 
+console.log(moment().isValid("2020-01-01"));
+console.log(moment().isValid("2020-14-01"));
 
-console.log(moment().subtract(7, 'months').calendar());
-console.log(moment().subtract(7, 'years').calendar()); 
-console.log(moment().subtract(7, 'days').calendar());  
+console.log(moment().subtract(7, 'months'));
+console.log(moment().subtract(7, 'years')); 
+console.log(moment().subtract(7, 'days'));  
 
-console.log(moment().add(7, 'days').calendar());     
-console.log(moment().add(7, 'months').calendar());     
-console.log(moment().add(7, 'years').calendar());     
+console.log(moment().add(7, 'days'));     
+console.log(moment().add(7, 'months'));     
+console.log(moment().add(7, 'years'));     
 
 
 var admisson = moment('11-11-2014', 'DD-MM-YYYY');
@@ -26,12 +28,6 @@ console.log(date2.diff(date1, "days"));
 console.log(moment([2019]).isLeapYear());
 console.log(moment([2020]).isLeapYear());
 
-// console.log(moment().startOf('hour').fromNow());
-
-console.log(moment().format());
-console.log(moment([2015-25-01]).format());
-console.log(moment(2020-14-01).toString());
-console.log(moment([2015, 25, 35]).toString()); 
 
 
 
